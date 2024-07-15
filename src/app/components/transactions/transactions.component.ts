@@ -33,6 +33,7 @@ export class TransactionsComponent {
         this.transactions = res;
         this.route.params.subscribe({
           next: (data) => {
+            let hamda = 123;
             let dates: string[] = [];
             let amounts: number[] = [];
             this.transactions.forEach((transaction) => {
