@@ -1,0 +1,22 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+tr {
+  cursor: pointer;
+}
+th {
+  vertical-align: text-top;
+}
+.min-max {
+  display: flex;
+  justify-content: space-between;
+}
+.min-max input {
+  width: 48%;
+}
+.chart-parent {
+  width: 500px;
+}
