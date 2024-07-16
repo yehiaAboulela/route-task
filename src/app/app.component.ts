@@ -1,12 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { TransactionsComponent } from './components/transactions/transactions.component';
 import { Customer } from './shared/interfaces/customer';
-import { FilterByNamePipe } from './shared/pipes/filter-by-name.pipe';
-import { CustomersService } from './shared/services/customers.service';
 import { Transaction } from './shared/interfaces/transaction';
 import { FilterByAmountPipe } from './shared/pipes/filter-by-amount.pipe';
+import { FilterByNamePipe } from './shared/pipes/filter-by-name.pipe';
+import { CustomersService } from './shared/services/customers.service';
 import { TransactionsService } from './shared/services/transactions.service';
-import { TransactionsComponent } from './components/transactions/transactions.component';
 
 @Component({
   selector: 'app-root',
